@@ -1,1 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main() {
+	int a, b, c, d, e;
+	scanf("%d", &a);
+	scanf("%d", &b);
+	if (a >= b) {
+		c = a + b;
+		printf("O valor final é: ", c);
+	}
+	else if(a < b){
+		d = a + b;
+		printf("O valor final é: ", d);
+	}
+	if (c > 20 or d > 20) {
+		printf("GAYZÃO!!!");
+	}
+	else if (c <= 20 or d <= 20) {
+		printf("ESSE É CABRA MACHO!!!");
+	}
+}
