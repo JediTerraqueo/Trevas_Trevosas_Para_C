@@ -6,7 +6,7 @@ package br.com.dev.gui;
 
 /**
  *
- * @author mathe
+ * @author Jediterraqueo
  */
 public class NewClass {
     
